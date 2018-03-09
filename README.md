@@ -23,6 +23,9 @@ You will need to run the following command several times for the exercises in th
 javac -d out/ src/*
 ```
 
+//check for error type
+javac -Xlint:unchecked -d out/ src/*.java
+
 In the previous command, the option `-d` specifies the directory where the `.class` files are going
 to be saved, `out` for this example. `src/*` tells the compiler to compile all the `.java` files in
 the `src` directory.
